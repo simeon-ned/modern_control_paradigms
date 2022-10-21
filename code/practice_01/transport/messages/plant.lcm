@@ -1,0 +1,9 @@
+package protocol;
+
+struct plant_t
+{
+    int64_t  timestamp;
+    double  state[2];
+    int16_t  error_code;
+    boolean  enabled;
+}

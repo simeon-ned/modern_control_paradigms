@@ -1,0 +1,9 @@
+package protocol;
+
+struct controller_t
+{
+    int64_t  timestamp;
+    double  control;
+    int16_t  error_code;
+    boolean  enabled;
+}

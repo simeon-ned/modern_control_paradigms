@@ -1,0 +1,9 @@
+package protocol;
+
+struct commands_t
+{
+    int64_t  timestamp;
+    int16_t  mode;
+    double   desired_state[2];
+    boolean  enabled;
+}
