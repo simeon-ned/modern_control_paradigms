@@ -2,7 +2,7 @@
 *.pdf
 **/logs
 **/.ipynb_checkpoints
-/lectures/01_**/*.md
+# /lectures/01_**/*.md
 /lectures/02_**/*.md
 /lectures/03_**/*.md
 /lectures/03_**
